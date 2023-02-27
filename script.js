@@ -103,11 +103,7 @@ const pokemonsarray = [
 
 
 
-pokemonsarray.forEach(pokemon => {
-
-    singlePokemonCard(pokemon)
-    }
-    )
+pokemonsarray.forEach(pokemon => {singlePokemonCard(pokemon)})
 
 function singlePokemonCard (pokemon) {
 

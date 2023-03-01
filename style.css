@@ -1,0 +1,100 @@
+body {
+    margin: 0 auto;
+    background-image: url("assets/container_bg.png");
+}
+/*CSS for Header*/
+header{
+    margin: 0 auto;
+    width: 70%;
+}
+
+header img.principal-logo{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+header img.logo-ball{
+    width: 10%;
+    margin: auto;
+    margin-top: -6%;    
+    display: block;
+}
+/*all-pokemon-cards style*/
+section.all-pokemons-cards {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 70%;
+    margin:20px auto;
+    padding-top:6px;    
+}
+
+/*PokeCard styles*/
+.poke-card{
+    position: relative;
+    background-color: white;
+    width: 215px;
+    margin: 15px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border-bottom: 5px;
+}
+.poke-card:hover{
+    transition: 0.5s;
+    top: -10px;
+    box-shadow: 0px 1px 4px 4px rgba(0, 0, 0, 0.315);
+}
+.poke-card .poke-img {
+    background-color: #CDCDCD;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.poke-card h2{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.poke-card p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.poke-card span{
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.plant{
+    background-color: 	#78C850;
+}
+.fairy{
+    background-color: 	#E79FE7		;
+}
+.poison{
+    background-color: 	#B058A0;
+}
+.fire{
+    background-color: 	#F05030;
+}
+.normal{
+    background-color: 	#A8A090;
+}
+.electrical{
+    background-color: 	#F8D030;
+}
+.bug{
+    background-color:	#A8B820;
+}

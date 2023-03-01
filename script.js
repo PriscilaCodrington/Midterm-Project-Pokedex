@@ -37,7 +37,7 @@ const pokemonsarray = [
     thumbnail: 'assets/006.png',
     id:'N°06',
     name: 'pikachu',
-    type: ['normal'],
+    type: ['electrical'],
   },
   {
     thumbnail: 'assets/007.png',
@@ -61,7 +61,7 @@ const pokemonsarray = [
     thumbnail: 'assets/010.png',
     id:'N°10',
     name: 'ground',
-    type: ['electrical'],
+    type: ['normal'],
   },
   {
     thumbnail: 'assets/011.png',
